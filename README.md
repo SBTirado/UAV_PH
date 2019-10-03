@@ -6,11 +6,11 @@ Usage:
 
 Inputs: 
 
-     file: File name as a charcater string for GeoTif file of DEM for field you wish to extract height from.
+ file: File name as a charcater string for GeoTif file of DEM for field you wish to extract height from.
      
-     shapefile: File name as a charcater string for ESRI shapefile containing plot boundaries. Plot boundaries should encompass entire plot and allies for ground height estimation
+ shapefile: File name as a charcater string for ESRI shapefile containing plot boundaries. Plot boundaries should encompass entire plot and allies for ground height estimation
      
-     bins: number of bins you wish to break up plot for boundary extraction
+ bins: number of bins you wish to break up plot for boundary extraction
 
 Summary:
  1. Extracting Plots from DEM
