@@ -1,5 +1,5 @@
 # UAV_PH
-Extract mean plot plant height values from DEMs created from maize nursery fields.
+Extract mean plot plant height values from DEMs created of maize nursery fields.
 
 Usage:
 [grid, means, variance, min_g] = AvgPHTwGroundBins (file, shapefile)
@@ -11,6 +11,16 @@ Inputs:
    shapefile: File name as a charcater string for ESRI shapefile containing plot boundaries. Plot boundaries should encompass entire plot and allies for ground height estimation
      
    bins: number of bins you wish to break up plot for boundary extraction
+
+Outputs:
+   
+   grid: 97th percentile height values for all 20 grid bins for each plot. Each row represents a plot. 
+   
+   means: Mean height value calculated for each plot. Each row represents a plot. 
+   
+   variance: Variance estimate for middle 12 bins of plot. Each row represents a plot. 
+   
+   min_g: Ground height value utilized for plot. Each row represents a plot. 
 
 Summary:
  1. Extracting Plots from DEM
